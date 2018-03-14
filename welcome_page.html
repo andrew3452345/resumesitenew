@@ -1,0 +1,36 @@
+<html>
+<title> Password Protect </title>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="fullScreenDiv">
+        <img src="Welcome - 7533.mp4" id="videosubstitute" alt="Full screen background video">
+        <div id="videoDiv">
+            <video preload="preload" id="video" autoplay="autoplay">
+            <!--<source src="video/t12.webm" type="video/webm"></source>-->
+            <source src="Welcome - 7533.mp4" type="video/mp4"></source>
+            </video>
+        </div>
+        <div id="messageBox">
+            <div>
+                <h1>Full screen background video</h1>
+                <h2>Would you like this on your site?</h2>
+                <table>
+                <form action = index.php method = post>
+                  <tr><td>
+                    Password:</td><td> <input type=password name=pass> </input></td></tr>
+                    <tr><td colspan=2>
+                      <center>
+                        <input type=submit value=submit>
+                      </center>
+                    </td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
