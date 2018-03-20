@@ -1,0 +1,15 @@
+.tag {
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .tag {
+    font-size: 2rem;
+  }
+  .gif {
+    zoom: 75%;
+  }
+  body {
+    font-size: .75rem;
+  }
+}
